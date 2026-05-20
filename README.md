@@ -59,6 +59,12 @@ docker pull mtesfa/payroll-fe:25.7.6
 
 # ⚙️ Backend (Spring Boot) – Docker Workflow
 
+## 0. Clean and Install Project
+
+```bash
+mvn clean install -U
+```
+
 ## 1. Build Docker Image
 
 ```bash
